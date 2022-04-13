@@ -1,0 +1,33 @@
+
+	body{
+		background-color:cadetblue;
+	}
+.chessboard{
+	height: 80 px;
+	width: 80 px;
+	display:grid;
+	grid-template-column: repeat(8,1fr);
+	grid-template-rows: repeat(8,1fr);
+}
+
+.square{
+height: 10 px;
+width: 10 px;
+border-color: black;
+}
+
+.square--black{
+background-color:black;
+}
+
+.square--white{
+background-color:white;
+}
+
+.chessboard square--queen ::hover{
+
+	}
+	
+span{
+	background-color: yellow;	
+	}
